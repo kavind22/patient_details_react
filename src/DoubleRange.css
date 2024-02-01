@@ -1,0 +1,63 @@
+.doubleRange-parent {
+    position: relative;
+    width: 500px;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 25px;
+
+}
+.doubleRange-parent div{
+    padding: 10px;
+}
+.doubleRange-parent p {
+    margin-top: 20px;
+}
+.doubleRange-parent input[type="range"] {
+    -webkit-appearance: none; 
+    appearance: none;
+    height: 8px;
+    width: 100%;
+    position: absolute;
+    background-color: #C6C6C6;
+    pointer-events: none;
+    border-radius: 5px;
+}
+.doubleRange-parent input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    pointer-events: all;
+    width: 18px;
+    height: 18px;
+    background-color: lightblue;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #C6C6C6;
+    cursor: pointer;
+    
+  }
+  
+  .doubleRange-parent input[type=range]::-moz-range-thumb {
+    -webkit-appearance: none;
+    pointer-events: all;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #C6C6C6;
+    cursor: pointer;  
+  }
+
+#min{
+    height: 0;
+    z-index: 1;
+    margin-top: 5px;
+}
+.doubleRange-parent p span{
+    padding-left: 12px;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+
+

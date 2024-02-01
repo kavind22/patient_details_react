@@ -1,0 +1,692 @@
+{
+  "resourceType": "Bundle",
+  "id": "da147c8d-4621-4c85-b85e-f387e69cfb60",
+  "meta": {
+    "lastUpdated": "2024-01-26T13:09:20.481+00:00"
+  },
+  "type": "searchset",
+  "link": [ {
+    "relation": "self",
+    "url": "https://hapi.fhir.org/baseR4/Patient?_pretty=true"
+  }, {
+    "relation": "next",
+    "url": "https://hapi.fhir.org/baseR4?_getpages=da147c8d-4621-4c85-b85e-f387e69cfb60&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+  } ],
+  "entry": [ 
+    {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593011",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593011",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T06:44:34.855+00:00",
+        "source": "#LHxuuPbrfaEETDS3"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Greg <b>JUNIPER </b></div><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+      },
+      "birthDate": "1998-01-01",
+      "name": [ {
+        "family": "Juniper",
+        "given": [ "Greg" ]
+      } ],
+      "gender":"male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593012",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593012",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T06:51:10.806+00:00",
+        "source": "#pljvC7UzMf748ust"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">First <b>LAST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>bkalidindi3</td></tr><tr><td>Address</td><td><span>Something 1 </span><br/><span>Kennesaw </span><span>GA </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>27 January 1998</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "bkalidindi3"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Last",
+        "given": [ "First" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "1234567890",
+        "use": "mobile"
+      } ],
+      "gender": "male",
+      "birthDate": "1998-01-27",
+      "address": [ {
+        "use": "work",
+        "line": [ "Something 1" ],
+        "city": "Kennesaw",
+        "state": "GA",
+        "postalCode": "12345",
+        "country": "USA"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593025",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593025",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2020-01-29T07:49:13.535+00:00",
+        "source": "#OupMq1qriqa68NjT"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">First <b>LAST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>bkalidindi3</td></tr><tr><td>Address</td><td><span>Something 1 </span><br/><span>Kennesaw </span><span>GA </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>27 January 1998</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "bkalidindi3"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Last",
+        "given": [ "First" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "0987654321",
+        "use": "mobile"
+      } ],
+      "gender": "male",
+      "birthDate": "1998-01-27",
+      "address": [ {
+        "use": "work",
+        "line": [ "CHANGED LINE" ],
+        "city": "NEW CITY",
+        "state": "NEW STATE",
+        "postalCode": "12345",
+        "country": "USA"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593030",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593030",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T08:35:59.718+00:00",
+        "source": "#y2Pcn8jX4saiwdUT"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bilbo <b>BAGGINS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>777 Smial Bag End </span><br/><span>Bagshot Row </span><span>Hobbiton </span></td></tr><tr><td>Date of birth</td><td><span>26 November 1990</span></td></tr></tbody></table></div>"
+      },
+      "name": [ {
+        "family": "Baggins",
+        "given": [ "Bilbo" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "1(555)555-1212",
+        "use": "home",
+        "rank": 1
+      }, {
+        "system": "phone",
+        "value": "1(555)565-0909",
+        "use": "mobile",
+        "rank": 2
+      } ],
+      "gender": "male",
+      "birthDate": "1990-11-26",
+      "address": [ {
+        "use": "home",
+        "type": "both",
+        "text": "777 Smial Bag End, Bagshot Row, The Shire, Hobbiton  0001",
+        "line": [ "777 Smial Bag End" ],
+        "city": "Bagshot Row",
+        "district": "The Shire",
+        "state": "Hobbiton",
+        "postalCode": "0001"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593038",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593038",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:23:00.538+00:00",
+        "source": "#3DbW0XI1eiAm0J5K"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert1" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593039",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593039",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:23:00.540+00:00",
+        "source": "#4qu5qWpuxRS1ZU6Y"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert2" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593043",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593043",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:26:05.308+00:00",
+        "source": "#MxBmsr1Pw4ycIRGp"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert3" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593044",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593044",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:26:05.308+00:00",
+        "source": "#eY3NnwO7FsNcegzQ"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert4" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593046",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593046",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:29:29.766+00:00",
+        "source": "#WkXJ22E7wNgIu2W4"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert5" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593047",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593047",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:29:29.768+00:00",
+        "source": "#gKvUIRok1CO35IkE"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert6" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593051",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593051",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:34:45.784+00:00",
+        "source": "#rCb4RyqTG4QQA0RU"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert7" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593052",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593052",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:34:45.874+00:00",
+        "source": "#Pf7JYX6lSBhEfq2l"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert8" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593053",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593053",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:35:24.110+00:00",
+        "source": "#br4WsdAl2Xujf5km"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert9" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593054",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593054",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:35:24.110+00:00",
+        "source": "#uMXcOPK6cclSLbdf"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert10" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593055",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593055",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:35:25.172+00:00",
+        "source": "#Um84kIRs9OvPKKnq"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Clara Josephine <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-002</td></tr><tr><td>Date of birth</td><td><span>12 September 1968</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-002"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Clara", "Josephine" ]
+      } ],
+      "gender": "female",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1968-09-12"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593056",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593056",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:35:25.219+00:00",
+        "source": "#s1hs2EQJh6heNLTB"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Clara Josephine <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-002</td></tr><tr><td>Date of birth</td><td><span>12 September 1968</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-002"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "vennessa", "Josephine" ]
+      } ],
+      "gender": "female",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1968-09-12"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593057",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593057",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:35:25.953+00:00",
+        "source": "#nlmqHcghQyl9iYWK"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lena <b>MEYER-LANDRUT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-003</td></tr><tr><td>Date of birth</td><td><span>22 May 1991</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-003"
+      } ],
+      "gender":"female",
+      "name": [ {
+        "family": "Meyer-Landrut",
+        "given": [ "Lena" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "0511-34567001"
+      } ],
+      "birthDate": "1991-05-22"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593058",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593058",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:35:25.982+00:00",
+        "source": "#nDYqDDhnwTIDfEYR"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lena <b>MEYER-LANDRUT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-003</td></tr><tr><td>Date of birth</td><td><span>22 May 1991</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-003"
+      } ],
+      "name": [ {
+        "family": "Meyer-Landrut",
+        "given": [ "Lena 1" ]
+      } ],
+      "gender":"female",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0511-34567001"
+      } ],
+      "birthDate": "1991-05-22"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593062",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593062",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:37:33.253+00:00",
+        "source": "#MQArWk8Gm7IjkrGf"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert11" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593063",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "593063",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2020-01-29T09:37:33.261+00:00",
+        "source": "#PaGGpjM7octVF7h8"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert <b>SCHUMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>loc-001</td></tr><tr><td>Date of birth</td><td><span>07 June 1959</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "1.3.6.1.4.1.21367.13.20.1000.1",
+        "value": "loc-001"
+      } ],
+      "name": [ {
+        "family": "Schumann",
+        "given": [ "Robert12" ]
+      } ],
+      "gender":"male",
+      "telecom": [ {
+        "system": "phone",
+        "value": "0821-87654321"
+      } ],
+      "birthDate": "1959-06-07"
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}
